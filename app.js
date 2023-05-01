@@ -10,8 +10,8 @@ const app = express()
 app.use(cors())
 app.use(express.json())
 
-app.use('/bathroom', bathroomRouter)
-app.use('/user', userRouter)
+//app.use('/bathroom', bathroomRouter)
+//app.use('/user', userRouter)
 
 app.get('/', async (req, res) => {
   res.send('ur not supposed to be here...')
