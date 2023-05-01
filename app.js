@@ -5,6 +5,8 @@ const cors = require('cors')
 //const bathroomRouter = require('./routes/bathroom')
 //const userRouter = require('./routes/user')
 
+var PORT = process.env.PORT || 3000
+
 const app = express()
 
 app.use(cors())
@@ -17,4 +19,4 @@ app.get('/', async (req, res) => {
   res.send('ur not supposed to be here...')
 })
 
-module.exports = app;
+module.exports = {app, PORT};
