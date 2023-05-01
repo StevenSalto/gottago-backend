@@ -2,8 +2,8 @@ const express = require('express')
 const cors = require('cors')
 
 
-const bathroomRouter = require('./routes/bathroom')
-const userRouter = require('./routes/user')
+//const bathroomRouter = require('./routes/bathroom')
+//const userRouter = require('./routes/user')
 
 const app = express()
 
